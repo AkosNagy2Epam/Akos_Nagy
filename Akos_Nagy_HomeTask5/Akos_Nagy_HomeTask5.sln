@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTask5", "HomeTask5\HomeTask5.csproj", "{3EED9990-45A0-46DF-A496-D4D608B8C13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTask5Tests", "HomeTask5Tests\HomeTask5Tests.csproj", "{96CF6BC0-E009-4A7D-8CF4-CBB2233C7974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EED9990-45A0-46DF-A496-D4D608B8C13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EED9990-45A0-46DF-A496-D4D608B8C13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EED9990-45A0-46DF-A496-D4D608B8C13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EED9990-45A0-46DF-A496-D4D608B8C13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CF6BC0-E009-4A7D-8CF4-CBB2233C7974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CF6BC0-E009-4A7D-8CF4-CBB2233C7974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CF6BC0-E009-4A7D-8CF4-CBB2233C7974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CF6BC0-E009-4A7D-8CF4-CBB2233C7974}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24A0470F-60E8-495D-A3AF-8E14C9EF27E9}
+	EndGlobalSection
+EndGlobal

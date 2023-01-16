@@ -8,7 +8,7 @@ There are 2 projects present in the solution:
 		The tests are in BDD style created using SpecFlow.
 
 		After the tests are run, the generated test report can be found in the
-		e:\hvatalos\Epam\12-WebAPI basics\Task 8\leadni\WebAPITest\Tests\bin\Debug\netcoreapp3.1\TestReport\
+		WebAPITest\Tests\bin\Debug\netcoreapp3.1\TestReport\
 		folder. The report is generated using Extent.
 	
 The postman folder contains the exported postman collection which has 8 requests that correspond to the 8 tests.

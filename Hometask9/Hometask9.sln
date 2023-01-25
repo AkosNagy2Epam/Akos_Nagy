@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI", "WebUI\WebUI.csproj", "{D5020220-5E0E-40AD-9B62-EAA5ADFBD848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUITests", "WebUITests\WebUITests.csproj", "{6A9E5E22-1C82-4D17-9130-23D3D583DB2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5020220-5E0E-40AD-9B62-EAA5ADFBD848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5020220-5E0E-40AD-9B62-EAA5ADFBD848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5020220-5E0E-40AD-9B62-EAA5ADFBD848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5020220-5E0E-40AD-9B62-EAA5ADFBD848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9E5E22-1C82-4D17-9130-23D3D583DB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9E5E22-1C82-4D17-9130-23D3D583DB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9E5E22-1C82-4D17-9130-23D3D583DB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9E5E22-1C82-4D17-9130-23D3D583DB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F45B77CB-ADE9-4753-9EB0-E3C3C0AB9306}
+	EndGlobalSection
+EndGlobal

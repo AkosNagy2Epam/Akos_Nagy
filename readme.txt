@@ -12,7 +12,7 @@ WebUITests\bin\Debug\netcoreapp3.1\TestReport\
 folder. The report is generated using Extent.
 
 The tests can be run from the command line using the following command:
-dotnet test "WebUITests.dll"
+dotnet test WebUITests.dll
 The location for the WebUITests.dll file is: WebUITests\bin\Debug\netcoreapp3.1
 
 The projects target .NET Core 3.1

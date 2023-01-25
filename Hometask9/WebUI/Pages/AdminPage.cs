@@ -11,7 +11,7 @@ namespace WebUI.Pages
 
         [FindsBy(How = How.XPath, Using = "//nav[@aria-label='Topbar Menu']/ul/li[2]")]
         public IWebElement Btn_Job { get; set; }
-        [FindsBy(How = How.XPath, Using = "//a[text()='Pay Grades']")]
+        [FindsBy(How = How.XPath, Using = "//ul[@class='oxd-dropdown-menu']/li[2]")]
         public IWebElement Btn_PayGrades { get; set; }
 
 

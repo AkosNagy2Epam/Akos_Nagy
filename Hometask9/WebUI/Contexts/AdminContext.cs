@@ -30,7 +30,7 @@ namespace WebUI.Contexts
         public PayGradesContext GoToPayGradesPage()
         {
             adminPage.Btn_Job.Click();
-            Wait.Until(d => adminPage.Btn_PayGrades);
+            Wait.Until(d => adminPage.Btn_PayGrades.Displayed == true);
             adminPage.Btn_PayGrades.Click();
             return new PayGradesContext(Driver);
         }

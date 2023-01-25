@@ -7,11 +7,11 @@ using System.Text;
 namespace WebUI.Pages
 {
     class AddPayGradePage
-    {        
+    {
 
-        [FindsBy(How = How.XPath, Using = "//input[not(@placeholder='Search')]")]
+        [FindsBy(How = How.XPath, Using = "//div[@class='oxd-input-group oxd-input-field-bottom-space']/div/input")]
         public IWebElement TB_Name { get; set; }
-        [FindsBy(How = How.XPath, Using = "//button[text()=' Save ']")]
+        [FindsBy(How = How.XPath, Using = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']")]     
         public IWebElement Btn_Save { get; set; }
 
     }

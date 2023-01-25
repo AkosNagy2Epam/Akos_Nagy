@@ -1,33 +1,40 @@
 ﻿using OpenQA.Selenium;
+using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace WebUI.Pages
 {
-    class EditPayGradePage : PageBase
+    class EditPayGradePage
     {
-        public EditPayGradePage(IWebDriver driver) : base(driver)
-        {
-        }
-
-        public IWebElement Btn_CancelEditGrade { get => Driver.FindElement(By.XPath("//div[@class='orangehrm-background-container']//button[text()=' Cancel ']")); }
-        public IWebElement Btn_Add { get => Driver.FindElement(By.XPath("//button[text()=' Add ']")); }
-        public IWebElement Txt_Found { get => Driver.FindElement(By.XPath("//span[contains(.,'Found')]")); }
+ 
+        [FindsBy(How = How.XPath, Using = "//div[@class='orangehrm-background-container']//button[text()=' Cancel ']")]
+        public IWebElement Btn_CancelEditGrade { get; set; }
+        [FindsBy(How = How.XPath, Using = "//button[text()=' Add ']")]
+        public IWebElement Btn_Add { get; set; }
+        [FindsBy(How = How.XPath, Using = "//span[contains(.,'Found')]")]
+        public IWebElement Txt_Found { get; set; }
 
 
 
         //Add Currency
-        public IWebElement Btn_SaveAddCurrency { get => Driver.FindElement(By.XPath("//div[./h6[text()='Add Currency']]//button[text()=' Save ']")); }
-        public IWebElement Lb_CurrencyName { get => Driver.FindElement(By.XPath("//div[text()='-- Select --']")); }
-        public IWebElement Tb_MinSalary { get => Driver.FindElement(By.XPath("//div[./div/label[text()='Minimum Salary']]//input")); }
-        public IWebElement Tb_MaxSalary { get => Driver.FindElement(By.XPath("//div[./div/label[text()='Maximum Salary']]//input")); }
+        [FindsBy(How = How.XPath, Using = "//div[./h6[text()='Add Currency']]//button[text()=' Save ']")]
+        public IWebElement Btn_SaveAddCurrency { get; set; }
+        [FindsBy(How = How.XPath, Using = "//div[text()='-- Select --']")]
+        public IWebElement Lb_CurrencyName { get; set; }
+        [FindsBy(How = How.XPath, Using = "//div[./div/label[text()='Minimum Salary']]//input")]
+        public IWebElement Tb_MinSalary { get; set; }
+        [FindsBy(How = How.XPath, Using = "//div[./div/label[text()='Maximum Salary']]//input")]
+        public IWebElement Tb_MaxSalary { get; set; }
 
 
 
         //Currencies
-        public IWebElement Txt_MinRecord { get => Driver.FindElement(By.XPath("//div[./div[text()='Minimum Salary']]/div[@class='data']")); }
-        public IWebElement Txt_MaxRecord { get => Driver.FindElement(By.XPath("//div[./div[text()='Maximum Salary']]/div[@class='data']")); }
+        [FindsBy(How = How.XPath, Using = "//div[./div[text()='Minimum Salary']]/div[@class='data']")]
+        public IWebElement Txt_MinRecord { get; set; }
+        [FindsBy(How = How.XPath, Using = "//div[./div[text()='Maximum Salary']]/div[@class='data']")]
+        public IWebElement Txt_MaxRecord { get; set; }
 
 
     }

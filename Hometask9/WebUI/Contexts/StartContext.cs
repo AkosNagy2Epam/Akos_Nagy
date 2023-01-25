@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SeleniumExtras.PageObjects;
 
 namespace WebUI.Contexts
 {
@@ -12,7 +13,8 @@ namespace WebUI.Contexts
 
         public StartContext(IWebDriver driver) : base(driver)
         {
-            startPage = new StartPage(driver);
+            startPage = new StartPage();
+            PageFactory.InitElements(driver, startPage);
             LoadPage();
         }
 

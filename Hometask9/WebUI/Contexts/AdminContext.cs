@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SeleniumExtras.PageObjects;
 
 namespace WebUI.Contexts
 {
@@ -12,7 +13,8 @@ namespace WebUI.Contexts
        
         public AdminContext(IWebDriver driver) : base(driver)
         {
-            adminPage = new AdminPage(driver);
+            adminPage = new AdminPage();
+            PageFactory.InitElements(driver,adminPage); 
             LoadPage();
         }
 

@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SeleniumExtras.PageObjects;
 
 namespace WebUI.Contexts
 {
@@ -11,7 +12,8 @@ namespace WebUI.Contexts
         AddPayGradePage addPayGradePage;
         public AddPayGradeContext(IWebDriver driver) : base(driver)
         {
-            addPayGradePage = new AddPayGradePage(Driver);
+            addPayGradePage = new AddPayGradePage();
+            PageFactory.InitElements(driver,addPayGradePage);
             LoadPage();
         }
 

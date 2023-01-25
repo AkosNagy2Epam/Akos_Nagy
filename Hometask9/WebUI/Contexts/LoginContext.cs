@@ -4,6 +4,7 @@ using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SeleniumExtras.PageObjects;
 
 namespace WebUI.Contexts
 {
@@ -13,7 +14,8 @@ namespace WebUI.Contexts
 
         public LoginContext(IWebDriver driver) : base(driver)
         {
-            loginPage = new LoginPage(driver);
+            loginPage = new LoginPage();
+            PageFactory.InitElements(driver, loginPage);
 
         }
 

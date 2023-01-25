@@ -4,6 +4,7 @@ using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using SeleniumExtras.PageObjects;
 
 namespace WebUI.Contexts
 {
@@ -12,7 +13,8 @@ namespace WebUI.Contexts
         EditPayGradePage editPayGradePage;
         public EditPayGradeContext(IWebDriver driver) : base(driver)
         {
-            editPayGradePage = new EditPayGradePage(Driver);
+            editPayGradePage = new EditPayGradePage();
+            PageFactory.InitElements(driver, editPayGradePage);
             LoadPage();
         }
 

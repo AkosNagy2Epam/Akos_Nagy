@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using SeleniumExtras.PageObjects;
 
 namespace WebUI.Contexts
 {
@@ -12,7 +13,8 @@ namespace WebUI.Contexts
         PayGradesPage payGradesPage;
         public PayGradesContext(IWebDriver driver) : base(driver)
         {
-            payGradesPage = new PayGradesPage(driver);
+            payGradesPage = new PayGradesPage();
+            PageFactory.InitElements(driver, payGradesPage);
             LoadPage();
         }
 

@@ -1,22 +1,22 @@
 ﻿using OpenQA.Selenium;
+using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace WebUI.Pages
 {
-    class LoginPage : PageBase
+    class LoginPage 
     {
-        
-        public LoginPage(IWebDriver driver) : base(driver)
-        {           
-        }
 
-       
-        public IWebElement Txt_UserName { get => Driver.FindElement(By.XPath("//p[1]")); }
-        public IWebElement Txt_Password { get => Driver.FindElement(By.XPath("//p[2]")); }
-        public IWebElement TB_UserName { get => Driver.FindElement(By.XPath("//*[@name='username']")); }
-        public IWebElement TB_Password { get => Driver.FindElement(By.XPath("//*[@name='password']")); }
+        [FindsBy(How = How.XPath, Using = "//p[1]")]
+        public IWebElement Txt_UserName { get; set; }
+        [FindsBy(How = How.XPath, Using = "//p[2]")]
+        public IWebElement Txt_Password { get; set; }
+        [FindsBy(How = How.XPath, Using = "//*[@name='username']")]
+        public IWebElement TB_UserName { get; set; }
+        [FindsBy(How = How.XPath, Using = "//*[@name='password']")]
+        public IWebElement TB_Password { get; set; }
 
 
 

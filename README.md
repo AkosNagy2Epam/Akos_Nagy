@@ -9,7 +9,6 @@ WebUITests: 	This project contains the tests.(4 positive and 4 negative)
 		The tests are in BDD style created using SpecFlow.
 
 After the tests are run, the generated test report can be found in the
-
 WebUITests\bin\Debug\netcoreapp3.1\TestReport\
 folder. The report is generated using Extent.
 

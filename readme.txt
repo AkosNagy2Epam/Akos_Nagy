@@ -16,4 +16,5 @@ dotnet test WebUITests.dll
 The location for the WebUITests.dll file is: WebUITests\bin\Debug\netcoreapp3.1
 
 The projects target .NET Core 3.1
-	
+
+The tests work with all the different languages of the tested website UI.

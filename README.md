@@ -1,4 +1,4 @@
-Hometask 8:
+WebAPI Hometask:
 
 The solution for the hometask is in the WebAPITest folder.
 There are 2 projects present in the solution:

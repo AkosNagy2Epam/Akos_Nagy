@@ -5,8 +5,10 @@ I tried to keep a clean and simple structure for the code:
 There are 2 projects:  
 -The HomeTask5 project contains all the Tasks. All five tasks are in the Tasks.cs file.  
 -The HomeTask5Tests project contains all the tests for these tasks. There are tests for one task per file. So all the tests are in 5 files altogether.  
-
+_______________________________________
+_______________________________________
 The UnitTest HomeTask were:
+
 Task в„–1
 In this task you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
 

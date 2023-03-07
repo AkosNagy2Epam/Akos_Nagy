@@ -34,6 +34,7 @@ Requirements:
 Note: please create the Postman collection and commit it as well.
 
 How the score is calculated:
+
    Each scenario 
    
    Add test results reporter

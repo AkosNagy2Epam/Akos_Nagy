@@ -18,19 +18,17 @@ The location for the WebUITests.dll file is: WebUITests\bin\Debug\netcoreapp3.1
 The projects target .NET Core 3.1
 
 The tests work with all the different languages of the tested website UI.
+
 _______________________________________
+
 The WebUI hometask were:
 
 General requirements:
 
- 
-
 Open https://opensource-demo.orangehrmlive.com/
-
     Your script must log in to the site with the credentials specified above input form (input is case-sensitive - if spaces are present).
 
  
-
 Scenario 1:
     Add a New record (Go to Admin -> Job - Pay Grades -> Click on the Add button)
         Add RandomName

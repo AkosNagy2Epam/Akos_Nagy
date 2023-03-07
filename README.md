@@ -1,4 +1,4 @@
-You can find the solution for the UnitTest HomeTask in the Akos_Nagy_HomeTask5 folder.  
+You can find the solution for the C# and UnitTest HomeTask in the Akos_Nagy_HomeTask5 folder.  
 This hometask consists of 5 tasks.  
   
 I tried to keep a clean and simple structure for the code:  
@@ -7,7 +7,7 @@ There are 2 projects:
 -The HomeTask5Tests project contains all the tests for these tasks. There are tests for one task per file. So all the tests are in 5 files altogether.  
 _______________________________________
 _______________________________________
-The UnitTest HomeTask were:
+The C# and UnitTest HomeTask were:
 
 Task в„–1
 In this task you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.

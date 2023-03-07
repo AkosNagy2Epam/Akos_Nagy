@@ -12,3 +12,31 @@ There are 2 projects present in the solution:
 		folder. The report is generated using Extent.
 	
 The postman folder contains the exported postman collection which has 8 requests that correspond to the 8 tests.
+_____________________________________________
+_____________________________________________
+
+The WebAPI HomeTask were: 
+
+Create API tests for the following Web API https://restful-booker.herokuapp.com/apidoc/index.html.
+
+Detailed description: https://restful-booker.herokuapp.com/
+
+Requirements:
+
+·        cover with tests ONLY CRUD operations;
+
+·        at least 2 tests for each operation – 1 positive and 1 negative;
+
+·        positive tests should validate the response for successful status code and expected response content. For example, you are getting exactly the same booking that we created before;
+
+·        negative tests should follow the same approach as positive tests but validate unsuccessful status code(e.g. 400, 401, 500, etc.) and expected error messages.
+
+Note: please create the Postman collection and commit it as well.
+
+How the score is calculated:
+   Each scenario 
+   Add test results reporter (ExtentReports, Allure, Specflow+LivingDoc 
+   
+   Instructions for your project in Readme file 
+   
+   Tests in BDD style
